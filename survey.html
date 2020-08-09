@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title> Fuel Card Survey </title>
+    
+    <h1 id="title"> Fuel Card Survey Form </h1>
+</header>
+    
+<body>
+    <p id="description"> Please Fill Out The Form</p>
+
+    <form id="survey-form">
+
+        <div class="input-headings"></div>
+            <label for="name" id="name-label"> name </label>
+            <input id="name" type="text" name="name" placeholder="type" class="form-input" required> </input>
+            <br>
+
+            <label for="email" id="email-label"> email </label>
+            <input id="email" type="email" name="email" placeholder="type" class=" form-input" required> </input>
+            <br>
+
+            <label for="number" id="number-label"> avg.mon </label>
+            <input id="number" type="number" name="number" placeholder="litres" min="30" max="250000" class="form-input" required> </input>
+            <br>
+
+            <label for="dropdown" id="concern"> Main Fuelcard concern </label>
+            <select id="dropdown" class="form-input">
+            <option value="lowest_price">lowest price</option>
+            <option value="price_stability">price stability</option>
+            <option value="network">network</option>
+            <option value="fees">fees</option>
+            <option value="invoice_breakdown">invoice breakdown</option>
+            <option value="billing_preference">billing preference</option>
+            <option value="personal_account_management">personal account management</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="Current_fuelcard_supplier" id="Current_fuelcard_supplier"> <b> current fuelcard supplier </b></label>
+
+            <input id="Current_fuelcard_supplier" type="radio" id="Esso" name="fuelcard" value="Esso">
+            <label for="Current_fuelcard_supplier">Esso</label>
+            <br>
+            <input id="Current_fuelcard_supplier" type="radio" id="Shell" name="fuelcard" value="Shell">
+            <label for="Current_fuelcard_supplier">Shell</label>
+            <br>
+            <input id="Current_fuelcard_supplier" type="radio" id="B.P" name="fuelcard" value="B.P">
+            <label for="Current_fuelcard_supplier">B.P</label>
+            <br>
+            <input id="Current_fuelcard_supplier" type="radio" id="UK_Fuels" name="fuelcard" value="UK_Fuels">
+            <label for="Current_fuelcard_supplier">UK Fuels</label>
+            <br>
+            <input id="Current_fuelcard_supplier" type="radio" id="The_Right_Fuel_Card" name="fuelcard" value="The_Right_Fuel_Card">
+            <label for="Current_fuelcard_supplier">The Right Fuel Card</label>
+            <br>
+            <input id="Current_fuelcard_supplier" type="radio" id="Keyfuels" name="fuelcard" value="Keyfuels">
+            <label for="Current_fuelcard_supplier">Keyfuels</label>
+            <br>
+            <input id="Current_fuelcard_supplier" type="radio" id="Fuel_Card_Services" name="fuelcard" value="Fuel_Card_Services">
+            <label for="Current_fuelcard_supplier">Fuel Card Services</label>
+            <br>
+            <input id="Current_fuelcard_supplier" type="radio" id="Allstar" name="fuelcard" value="Allstar">
+            <label for="Current_fuelcard_supplier">Allstar</label>
+            <br>
+            <input id="Current_fuelcard_supplier" type="radio" id="Fuel_Genie" name="fuelcard" value="Fuel_Genie">
+            <label for="Current_fuelcard_supplier">Fuel Genie</label>
+            <br>
+            <input id="Current_fuelcard_supplier" type="radio" id="Diesel_Direct" name="fuelcard" value="Diesel_Direct">
+            <label for="Current_fuelcard_supplier">Diesel Direct</label>
+            <br>
+            <input id="Current_fuelcard_supplier" type="radio" id="Diesel_24" name="fuelcard" value="Diesel_24">
+            <label for="Current_fuelcard_supplier">Diesel 24</label>
+            <br>
+            <input id="Current_fuelcard_supplier" type="radio" id="Texaco" name="fuelcard" value="Texaco">
+            <label for="Current_fuelcard_supplier">Texaco</label>
+            <br>
+            <input id="Current_fuelcard_supplier" type="radio" id="Certas" name="fuelcard" value="Certas">
+            <label for="Current_fuelcard_supplier">Certas</label>
+            <br>
+            <input id="Current_fuelcard_supplier" type="radio" id="Fast_Fuels" name="fuelcard" value="Fast_Fuels">
+            <label for="Current_fuelcard_supplier">Fast Fuels</label>
+            <BR>
+            <input id="Current_fuelcard_supplier" type="radio" id="Other" name="fuelcard" value="Other">
+            <label for="Current_fuelcard_supplier">Other</label>
+            <br>
+            <br>
+
+            <label for="features"> <b> Additional Features </b></label>
+            <br>
+            <input id="checkbox" type="checkbox" name="features" value="Diesel_only">
+            <label for="checkbox">Diesel only</label>
+            <br>
+            <input id="checkbox" type="checkbox" name="features" value="Petrol">
+            <label for="checkbox">Petrol</label>
+            <br>
+            <input id="checkbox" type="checkbox" name="features" value="Lubes/oils">
+            <label for="checkbox">Lubes/oils</label>
+            <br>
+            <input id="checkbox" type="checkbox" name="features" value="Car_wash">
+            <label for="checkbox">Car wash</label>
+            <br>
+            <br>
+
+            <label id="textarea">Additional Comments</label>
+            <br>
+            <textarea id="textarea" name="instructions" rows="5" cols="40">
+            </textarea>
+            <br>
+
+            <input id="submit" type="submit" value="submit" class="submit-button">
+
+        </div>
+
+        </form>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
